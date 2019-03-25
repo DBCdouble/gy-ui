@@ -1,4 +1,4 @@
-# @gy-ui
+# gy-ui
 
 A React UI Design Language.
 
