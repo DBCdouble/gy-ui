@@ -1,4 +1,3 @@
-import * as math from 'mathjs'
 var Uitil = {
 	pointReg: function (value, digit) {
 		//digit为需要保存的小数点后的位数
@@ -94,11 +93,6 @@ var Uitil = {
       }
     }
     return temp;
-	},
-	//控制精度计算
-	countAccuracy: function (value) {
-		var precision = 14
-    return Number(math.format(value, precision))
 	},
 	downloadFile:function (fileName,fileUrl){
 		//文件下载 txt，png，jpg

@@ -42,7 +42,12 @@ module.exports = {
                     },
                     'less-loader',
                 ],
-            },
+            },{
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    'url-loader'
+                ]
+            }
         ],
     },
     optimization: {
