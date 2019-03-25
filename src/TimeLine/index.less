@@ -1,0 +1,49 @@
+.gy-steps{
+	padding-left: 10px;
+	width: 100%;
+	ul{
+		top: 46px;
+		position: relative;
+		li{
+			width: 126px;
+			float: left;
+			.imgBox{
+				height: 40px;
+				.sel{
+					width: 40px;
+					height: 40px;
+					z-index: 1;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					margin: auto 0;
+				}
+				.line{
+					background: #51b74c;
+					height: 4px;
+					width: 126px;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					margin: auto 0;
+				}
+				.lineNor{
+					background: #cdcdcd;
+				}
+			}
+			.text{
+				color: #51b74c;
+				bottom: -47px;
+				position: absolute;
+				transform:translateX(-50%);
+				-ms-transform:translateX(-50%); 	/* IE 9 */
+				-moz-transform:translateX(-50%); 	/* Firefox */
+				-webkit-transform:translateX(-50%); /* Safari 和 Chrome */
+				-o-transform:translateX(-50%); 
+			}
+			.textNor{
+				color: #cdcdcd;
+			}
+		}
+	}
+}

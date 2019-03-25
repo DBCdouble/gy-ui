@@ -1,0 +1,90 @@
+.gy-table{
+  table{
+    width: 100%;
+    thead{
+      width: 100%;
+      background-color: #e8e9ed;
+      tr{
+        position: relative;
+        th{
+          position: relative;
+          text-align: center;
+          vertical-align: middle;
+          padding: 6px;
+          div:nth-of-type(1){
+            display: inline-block;
+          }
+          div:nth-of-type(2){
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            display: inline-block;
+            margin-left: 3px;
+            .sort{
+              display: block;
+              width: 0px;
+              height: 0px;
+              border-width: 7px;
+              border-style:solid;
+            }
+            .up{
+              border-color: transparent transparent #868893 transparent;
+              margin-bottom: 8px;
+            }
+            .down{
+              border-color: #868893 transparent transparent transparent;
+            }
+            .top{
+							border-color: transparent transparent #eb6767 transparent;
+            }
+            .bottom{
+							border-color: #eb6767 transparent transparent transparent;
+            }
+          }
+          .colFilter{
+            display: inline-block;
+            margin-left: 10px;
+            border: 1px solid #d2d6de;
+          }
+        }
+        .bordered{
+          border: 1px solid #ccc;
+        }
+        .marginL{
+          margin-left: -10px;
+        }
+      }
+    }
+    .bordered{
+      border-left: 1px solid #c9c9c9;
+      border-top: 1px solid #c9c9c9;
+    }
+    tbody{
+      width: 100%;
+      background-color: #FFFFFF;
+      tr{
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        cursor: pointer;
+        transition: all .3s ease;
+        td{
+          text-align: center;
+          vertical-align: middle;
+          padding: 6px;
+          // input[type=checkbox]{
+          //   width: 25px;
+          //   height: 25px;
+          //   vertical-align: middle;
+          // }
+        }
+        .tdLeft{
+          text-align: left;
+        }
+      }
+      tr:hover{
+        background-color: #F9F9F9;
+      }
+    }
+  }
+}
